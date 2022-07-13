@@ -1,20 +1,12 @@
 {
-    "campaigns": [
-        {
-            "id": 1,
-            "nombre": "Campaign 1",
-            "nombre_archivo": "Campaign 1.pdf",
-            "documento": "blob:http://localhost:8080/64e662ce-4757-4c3a-a58c-836e63c0aab1",
-            "asunto": "Asunto 1",
-            "mensaje": "Mensaje 1"
-        },
-        {
-            "id": 2,
-            "nombre": "Campaign 2",
-            "nombre_archivo": "Campaign 2.pdf",
-            "documento": "",
-            "asunto": "Asunto 2",
-            "mensaje": "Mensaje 2"
-        }
-    ]
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Juan Perez"
+    },
+    {
+      "id": 2,
+      "nombre": "Pedro Perez"
+    }
+  ]
 }
