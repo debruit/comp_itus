@@ -1,0 +1,47 @@
+{
+    "intents": [
+        {
+            "tag": "clima",
+            "patterns": [
+                "Como esta el clima?",
+                "Que tiempo hace hoy?",
+                "Dame datos del clima",
+                "Como esta la temperatura?"
+            ],
+            "responses": [
+                "Dia nublado con temperatura actual es de 8 grados",
+                "El clima esta nublado con temperatura de 8 grados"
+            ]
+        },
+        {
+            "tag": "despedidas",
+            "patterns": [
+                "adios",
+                "hasta luego",
+                "hasta pronto",
+                "hasta mañana",
+                "Gracias",
+                "Muy gentil"
+            ],
+            "responses": [
+                "Hasta pronto",
+                "Feliz día",
+                "Hasta mañana",
+                "Hasta luego",
+                "Gracias por comunicarse, feliz día"
+            ]
+        },
+        {
+            "tag": "preguntas",
+            "patterns": [
+                "Que haces tu?",
+                "Quien eres?",
+                "Con quien hablo?"
+            ],
+            "responses": [
+                "Soy tu asistente virtual, te puedo ayudar con tus dudas",
+                "Soy un asistente virtual, te ayudo con tus preguntas"
+            ]
+        }
+    ]
+}
