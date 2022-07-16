@@ -10,6 +10,3 @@ def get_usuario(documento):
 def registrar_usuario(documento, nombre):
     r = requests.post(url, json={'id': int(documento), 'nombre': nombre})
     return r.json()
-# r = requests.get(url).json()
-
-# nombre = [ n for n in r if n['nombre'].startswith('J')]
